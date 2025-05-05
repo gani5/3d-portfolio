@@ -7,6 +7,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  healthcare,
+  shopify,
+  insurance,
 
   nih,
   persistent,
@@ -200,7 +203,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Gani proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -208,7 +211,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Gani does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -216,7 +219,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Gani optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -226,7 +229,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Rental Project",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -239,15 +242,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gani5/car-rental",
   },
   {
-    name: "Job IT",
+    name: "Job Portal",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -265,10 +268,10 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gani5/job-portal",
   },
   {
-    name: "Trip Guide",
+    name: "Tour Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -287,8 +290,74 @@ const projects = [
     ],
   
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gani5/tour-guide",
   },
+  {
+    name: "Inusrance Company",
+    description:
+      " Spring Boot app for calculating insurance amounts, purchasing policies, generating PDF documents, and verifying new users via email link.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hibernate",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Oracle",
+        color: "pink-text-gradient",
+      },
+    ],
+  
+    image: insurance,
+    source_code_link: "https://github.com/gani5/inurance-company",
+  },
+  {
+    name: "Health Care Application",
+    description:
+      "Built a web application for patients and doctors to manage appointments, access medical records, and receive notifications. Features include user registration, role-based login, appointment scheduling, and health record tracking.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+  
+    image: healthcare,
+    source_code_link: "https://github.com/gani5/healthcare-app",
+  },
+  {
+    name: "Online Shopping Application",
+    description:
+      " Developed an online marketplace like OLX, allowing users to register, post products, browse listings, manage carts, and view order history, with separate roles for admin and regular users.",
+    tags: [
+      {
+        name: "Spring Framework",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Azure",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+  
+    image: shopify,
+    source_code_link: "https://github.com/gani5/online-shopping-website",
+  }
 
  
   

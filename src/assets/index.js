@@ -45,7 +45,9 @@ import commscope from "./company/commscope.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import insurance from "./insurance.png";
+import shopify from "./shopify.jpg";
+import healthcare from "./healthcare.jpg";
 export {
   logo1,
   backend,
@@ -65,6 +67,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  healthcare,
+  shopify,
+  insurance,
 
   java,
   spring,
