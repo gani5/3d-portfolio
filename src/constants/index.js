@@ -136,13 +136,13 @@ const experiences = [
     company_name: "National Institute of Health",
     icon:nih,
     iconBg: "#383E56",
-    date: "Dec 2023 - Present",
+    date: "Jul 2024 - Present",
     points: [
     
-      "Developed HIPAA-compliant healthcare microservices managing 500K+ patient records securely",
-      "Optimized EHR integration using Spring Boot and Kafka, improving data sync accuracy",
-      "Built real-time dashboards with React.js and WebSockets, enhancing UI load time",
-      "Automated CI/CD pipelines with Jenkins, boosting deployment efficiency and uptime"
+      "Designed and deployed HIPAA-compliant Spring Boot microservices managing 500K+ patient records with secure access.",
+      "Built an AI-enabled Spring Boot backend integrating LLMs (OpenAI, Claude, Hugging Face) for chat and summarization on Azure.",
+      "Integrated custom NLP models on Google Vertex AI with Spring Boot to classify customer intent and route requests.",
+      "Developed real-time healthcare dashboards using AngularJS, WebSockets, Redux, and Axios for efficient API communication."
 
     ],
   },
@@ -153,10 +153,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Aug 2023",
     points: [
-      "Designed and implemented RESTful APIs using Spring Boot for secure banking transactions, account operations, and financial reporting",
-      "Built real-time fraud detection and payment processing microservices with Apache Kafka, reducing financial risk and enhancing scalability",
-      "Developed dynamic, responsive React.js and Angular components, improving load times and user engagement by 40%",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built Spring Boot microservices with Kafka Streams for real-time fraud detection and transaction processing.",
+      "Developed Angular 12+ dashboards with real-time banking data, forecasting, and 40% fewer API calls via NgRx caching.",
+      "Used LangChain with OpenAI, Copilot, and Hugging Face to orchestrate prompts and exposed results via Java REST APIs.",
+      "Designed and managed PostgreSQL and PL/SQL schemas for high-volume transactional systems.",
     ],
   },
   {
@@ -166,9 +166,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "April 2022 - Dec 2022",
     points: [
-      "Designed and optimized Java-based insurance applications, improving policy processing efficiency and reducing customer service response times",
-      "Enhanced database performance by optimizing SQL queries across Oracle, MySQL, and PostgreSQL, boosting data retrieval speed",
-      "Developed and managed high-volume batch jobs using Spring Batch and Quartz Scheduler, processing millions of records daily",
+      "Migrated legacy J2EE insurance systems to Spring Boot microservices, cutting manual underwriting by 30%.",
+      "Designed event-driven systems with Kafka, RabbitMQ, and ActiveMQ to reduce processing latency by 45%.",
+      "Deployed auto-scaling services on GCP to support peak insurance enrollment periods.",
       "Designed event-driven architectures with Apache Kafka, RabbitMQ, and ActiveMQ, enabling real-time data streaming"
     ],
   },
@@ -179,10 +179,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2019 - Mar 2022",
     points: [
-      "Optimized React.js components and Node.js backend, improving page load time and application performance.",
-      "Refactored legacy JSP code to modern React.js with Node.js integration, enhancing scalability and maintainability.",
-      "Implemented D3.js data visualizations and used Node.js to optimize server load and performance insights.",
-      "Enhanced security with JWT-based authentication and role-based access control using Node.js."
+      "Migrated manufacturing applications from monoliths to microservices with Spring and Hibernate.",
+      "Developed REST/SOAP APIs and Angular UIs for equipment tracking systems.",
+      "Spearheaded continuous integration efforts using Jenkins and Azure DevOps pipelines.",
+      "Monitored system performance using Prometheus and improved throughput by 25%."
     ],
   },
   {
@@ -192,10 +192,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2018 - Aug 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed interactive D3.js visualizations and dashboards for network monitoring tools.",
+      "Implemented authentication using JWT and enhanced UI responsiveness with React.js and Node Js",
+      "Optimized frontend performance by 25% via code-splitting and lazy loading.",
+      "Refactored legacy JavaScript codebase into modular React components.",
     ],
   }
 ];
